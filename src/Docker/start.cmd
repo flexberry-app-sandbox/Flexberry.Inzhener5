@@ -1,0 +1,1 @@
+docker-compose -p inzhener5 up -d

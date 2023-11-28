@@ -1,0 +1,117 @@
+﻿{
+  "name": "IISInzhener5ЗакМенеджера",
+  "modelName": "i-i-s-inzhener5-зак-менеджера",
+  "className": "ЗакМенеджера",
+  "nameSpace": "IIS.Inzhener5",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер_заявки",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "операционная_система",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "описание_проблемы",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗакМенеджераE",
+      "modelName": "i-i-s-inzhener5-зак-менеджера",
+      "attrs": [
+        {
+          "name": "операционная_система",
+          "caption": "Операционная_система",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номер_заявки",
+          "caption": "Номер_заявки",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "описание_проблемы",
+          "caption": "Описание_проблемы",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗакМенеджераL",
+      "modelName": "i-i-s-inzhener5-зак-менеджера",
+      "attrs": [
+        {
+          "name": "операционная_система",
+          "caption": "Операционная_система",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номер_заявки",
+          "caption": "Номер_заявки",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "описание_проблемы",
+          "caption": "Описание_проблемы",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

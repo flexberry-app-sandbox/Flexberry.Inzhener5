@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISInzhener5ТЧЗакМенеджера",
+  "modelName": "i-i-s-inzhener5-т-ч-зак-менеджера",
+  "className": "ТЧЗакМенеджера",
+  "nameSpace": "IIS.Inzhener5",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "действия_для_устранения_проблемы",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "закМенеджера",
+      "relatedTo": "i-i-s-inzhener5-зак-менеджера",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧЗакМенеджераE",
+      "modelName": "i-i-s-inzhener5-т-ч-зак-менеджера",
+      "attrs": [
+        {
+          "name": "действия_для_устранения_проблемы",
+          "caption": "Действия_для_устранения_проблемы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТЧЗакМенеджераL",
+      "modelName": "i-i-s-inzhener5-т-ч-зак-менеджера",
+      "attrs": [
+        {
+          "name": "действия_для_устранения_проблемы",
+          "caption": "Действия_для_устранения_проблемы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

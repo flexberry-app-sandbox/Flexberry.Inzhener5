@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Зак менеджера",
+  "name": "IISInzhener5ЗакМенеджераE",
+  "className": "ЗакМенеджераE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-inzhener5-зак-менеджера",
+      "modelProjection": "ЗакМенеджераE"
+    }
+  ]
+}

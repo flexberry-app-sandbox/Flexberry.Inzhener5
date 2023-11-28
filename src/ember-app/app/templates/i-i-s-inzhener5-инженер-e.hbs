@@ -1,0 +1,107 @@
+<h3 class="ui header">{{t "forms.i-i-s-inzhener5-инженер-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.описание_продукта
+      class=(if (v-get validationModel "описание_продукта" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.описание_продукта-caption")
+      data-test-i-i-s-inzhener5-инженер-e-описание_продукта=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "описание_продукта" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.дата_производства
+      class=(if (v-get validationModel "дата_производства" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.дата_производства-caption")
+      data-test-i-i-s-inzhener5-инженер-e-дата_производства=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "дата_производства" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.сертификация_и_стандарты
+      class=(if (v-get validationModel "сертификация_и_стандарты" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.сертификация_и_стандарты-caption")
+      data-test-i-i-s-inzhener5-инженер-e-сертификация_и_стандарты=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "сертификация_и_стандарты" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.экологичность_продукта
+      class=(if (v-get validationModel "экологичность_продукта" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.экологичность_продукта-caption")
+      data-test-i-i-s-inzhener5-инженер-e-экологичность_продукта=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "экологичность_продукта" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.серия_и_номер_партии
+      class=(if (v-get validationModel "серия_и_номер_партии" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.серия_и_номер_партии-caption")
+      data-test-i-i-s-inzhener5-инженер-e-серия_и_номер_партии=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "серия_и_номер_партии" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.гарантии_производителя
+      class=(if (v-get validationModel "гарантии_производителя" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.гарантии_производителя-caption")
+      data-test-i-i-s-inzhener5-инженер-e-гарантии_производителя=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "гарантии_производителя" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.производитель
+      class=(if (v-get validationModel "производитель" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.производитель-caption")
+      data-test-i-i-s-inzhener5-инженер-e-производитель=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "производитель" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.инструкция_по_использованию
+      class=(if (v-get validationModel "инструкция_по_использованию" "isInvalid") "error")
+      label=(t "forms.i-i-s-inzhener5-инженер-e.инструкция_по_использованию-caption")
+      data-test-i-i-s-inzhener5-инженер-e-инструкция_по_использованию=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "инструкция_по_использованию" "message")}}
+  </div>
+</form>

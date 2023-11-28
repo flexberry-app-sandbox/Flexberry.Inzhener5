@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Инженер",
+  "name": "IISInzhener5ИнженерE",
+  "className": "ИнженерE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-inzhener5-инженер",
+      "modelProjection": "ИнженерE"
+    }
+  ]
+}

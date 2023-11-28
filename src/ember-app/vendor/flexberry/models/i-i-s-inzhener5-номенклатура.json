@@ -1,0 +1,76 @@
+﻿{
+  "name": "IISInzhener5Номенклатура",
+  "modelName": "i-i-s-inzhener5-номенклатура",
+  "className": "Номенклатура",
+  "nameSpace": "IIS.Inzhener5",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "товар",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "закМенеджера",
+      "relatedTo": "i-i-s-inzhener5-зак-менеджера",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "инженер",
+      "relatedTo": "i-i-s-inzhener5-инженер",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "отчетОТестПК",
+      "relatedTo": "i-i-s-inzhener5-отчет-о-тест-п-к",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "НоменклатураE",
+      "modelName": "i-i-s-inzhener5-номенклатура",
+      "attrs": [
+        {
+          "name": "товар",
+          "caption": "Товар",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "НоменклатураL",
+      "modelName": "i-i-s-inzhener5-номенклатура",
+      "attrs": [
+        {
+          "name": "товар",
+          "caption": "Товар",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

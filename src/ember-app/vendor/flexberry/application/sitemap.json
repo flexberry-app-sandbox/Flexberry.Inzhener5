@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Inzhener5",
+  "applicationTitle": "Inzhener5",
+  "items": [
+    {
+      "link": null,
+      "menuName": "inzhener5",
+      "caption": "Inzhener5",
+      "title": "Inzhener5",
+      "children": [
+        {
+          "link": "i-i-s-inzhener5-инженер-l",
+          "menuName": null,
+          "caption": "Инженер",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-inzhener5-зак-менеджера-l",
+          "menuName": null,
+          "caption": "Зак менеджера",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-inzhener5-номенклатура-l",
+          "menuName": null,
+          "caption": "Номенклатура",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-inzhener5-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-inzhener5-т-ч-зак-менеджера-l",
+          "menuName": null,
+          "caption": "Т ч зак менеджера",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-inzhener5-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-inzhener5-т-ч-отчет-о-тест-п-к-l",
+          "menuName": null,
+          "caption": "Т ч отчет о тест ПК",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-inzhener5-отчет-о-тест-п-к-l",
+          "menuName": null,
+          "caption": "Отчет о тест ПК",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

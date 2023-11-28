@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Отчет о тест ПК",
+  "name": "IISInzhener5ОтчетОТестПКE",
+  "className": "ОтчетОТестПКE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-inzhener5-отчет-о-тест-п-к",
+      "modelProjection": "ОтчетОТестПКE"
+    }
+  ]
+}

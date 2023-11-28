@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-inzhener5-инженер-e",
+  "editForm": "i-i-s-inzhener5-инженер-e",
+  "external": false,
+  "caption": "Инженер",
+  "name": "IISInzhener5ИнженерL",
+  "className": "ИнженерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-inzhener5-инженер",
+      "modelProjection": "ИнженерL"
+    }
+  ]
+}

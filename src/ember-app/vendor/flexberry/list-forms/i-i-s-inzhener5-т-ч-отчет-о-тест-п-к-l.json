@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-inzhener5-т-ч-отчет-о-тест-п-к-e",
+  "editForm": "i-i-s-inzhener5-т-ч-отчет-о-тест-п-к-e",
+  "external": false,
+  "caption": "Т ч отчет о тест ПК",
+  "name": "IISInzhener5ТЧОтчетОТестПКL",
+  "className": "ТЧОтчетОТестПКL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-inzhener5-т-ч-отчет-о-тест-п-к",
+      "modelProjection": "ТЧОтчетОТестПКL"
+    }
+  ]
+}

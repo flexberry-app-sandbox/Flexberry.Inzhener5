@@ -1,0 +1,125 @@
+﻿{
+  "name": "IISInzhener5ТЧОтчетОТестПК",
+  "modelName": "i-i-s-inzhener5-т-ч-отчет-о-тест-п-к",
+  "className": "ТЧОтчетОТестПК",
+  "nameSpace": "IIS.Inzhener5",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "выводы_и_рекомендации",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "операционная_система",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "результаты_тестирования",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "тестируемые_приложения_и_игры",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "отчетОТестПК",
+      "relatedTo": "i-i-s-inzhener5-отчет-о-тест-п-к",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧОтчетОТестПКE",
+      "modelName": "i-i-s-inzhener5-т-ч-отчет-о-тест-п-к",
+      "attrs": [
+        {
+          "name": "тестируемые_приложения_и_игры",
+          "caption": "Тестируемые_приложения_и_игры",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "операционная_система",
+          "caption": "Операционная_система",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "результаты_тестирования",
+          "caption": "Результаты_тестирования",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "выводы_и_рекомендации",
+          "caption": "Выводы_и_рекомендации",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТЧОтчетОТестПКL",
+      "modelName": "i-i-s-inzhener5-т-ч-отчет-о-тест-п-к",
+      "attrs": [
+        {
+          "name": "тестируемые_приложения_и_игры",
+          "caption": "Тестируемые_приложения_и_игры",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "операционная_система",
+          "caption": "Операционная_система",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "результаты_тестирования",
+          "caption": "Результаты_тестирования",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "выводы_и_рекомендации",
+          "caption": "Выводы_и_рекомендации",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

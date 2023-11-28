@@ -1,0 +1,30 @@
+﻿{
+  "name": "IISInzhener5ОтчетОТестПК",
+  "modelName": "i-i-s-inzhener5-отчет-о-тест-п-к",
+  "className": "ОтчетОТестПК",
+  "nameSpace": "IIS.Inzhener5",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтчетОТестПКE",
+      "modelName": "i-i-s-inzhener5-отчет-о-тест-п-к",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтчетОТестПКL",
+      "modelName": "i-i-s-inzhener5-отчет-о-тест-п-к",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

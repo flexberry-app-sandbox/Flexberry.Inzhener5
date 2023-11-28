@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-inzhener5-т-ч-зак-менеджера-e",
+  "editForm": "i-i-s-inzhener5-т-ч-зак-менеджера-e",
+  "external": false,
+  "caption": "Т ч зак менеджера",
+  "name": "IISInzhener5ТЧЗакМенеджераL",
+  "className": "ТЧЗакМенеджераL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-inzhener5-т-ч-зак-менеджера",
+      "modelProjection": "ТЧЗакМенеджераL"
+    }
+  ]
+}
